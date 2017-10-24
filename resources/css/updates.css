@@ -1,0 +1,290 @@
+html {
+  font-family: "Roboto Condensed" , sans-serif;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-weight: 900;
+  color: #7FA09F;
+
+}
+body, html
+{
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Change text selection color */
+::selection {
+  background: #F1F5F5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #F1F5F5; /* Gecko Browsers */
+}
+
+/* VIVIAN YOUNG */
+.title {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: black;
+}
+
+.title #name {
+  padding-top:20px;
+  float: left;
+  padding-left: 70px;
+  color: white;
+  font-family: 'Amiko', sans-serif;
+  letter-spacing: 7px;
+  font-size: 20px;
+  /*text-shadow: 1px 4px 2px #A4BFBE;*/
+  text-decoration: none;
+}
+
+.title #name:visited {
+  color: white;
+}
+
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Navigation bar */
+.title #nav {
+  white-space: nowrap;
+  line-height: 10px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  font-size: 10px;
+  text-align: right;
+  /*margin-left: 60px;*/
+  margin-right: 60px;
+  word-spacing: 30px;
+}
+
+.title #nav a {
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0px;
+}
+
+.title #nav a:hover {
+  color: white;
+  border-bottom: solid 2px white;
+
+  padding-bottom: 3px;
+}
+
+.title #nav .active {
+    border-bottom: solid 2px white;
+    display: inline;
+    padding-bottom: 3px;
+}
+
+#container {
+  display: inline-block;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#posts {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#container #posts .post {
+  padding: 30px 0px;
+  color: #677A7C;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#container #posts .post h3 {
+  font-family: 'Amiko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  color: #4B5C5D;
+}
+
+#container hr {
+  width: auto;
+}
+
+#container #posts .button {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: 'Amiko', sans-serif;
+  color: #677a7c;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: solid #677a7c 2px;
+  text-decoration: none;
+}
+
+#container #posts .button:hover {
+  background: #d7f0f2;
+  text-decoration: none;
+}
+
+#container #right_side {
+  display: inline-block;
+  float: right;
+  left: 0;
+  right: 0;
+  width: 30%;
+  padding: 10px 0px;
+}
+
+#container #right_side img {
+  padding-top: 105px;
+}
+
+#container #right_side #bio {
+  padding-bottom: 20px;
+}
+
+#container #right_side #hello a {
+  text-decoration: none;
+  color: #DE6C59;
+}
+
+#container #right_side #hello a:hover {
+  text-decoration: none;
+  color: #FD360F;
+}
+
+#container #right_side #hello {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #5F7776;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-size: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  bottom: 0;
+}
+
+/* Logos */
+
+.logo {
+  text-decoration: none;
+}
+
+#iglogo {
+  margin-left: 80px;
+}
+
+/* Images */
+
+#image img {
+  width: 80%;
+  height: 70%;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+
+/* Copyright */
+footer {
+  font-weight: 900;
+  float: right;
+  margin-right: 10%;
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    background-color: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F3F3F3;
+    border: black;
+}
+/* Footer */
+
+.footer{
+  /*position: absolute;*/
+  width:100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #F6F8F8;
+}
+
+/* DROP DOWN MENU /
+/* Dropdown Button */
+.dropbtn {
+    font-family: "Roboto Condensed" , sans-serif;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #515E5E;
+    min-width: 40px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #657474;
+  text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #515E5E;
+}
