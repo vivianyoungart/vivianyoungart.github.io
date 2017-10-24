@@ -215,12 +215,12 @@ footer {
 /* Track */
 ::-webkit-scrollbar-track {
     -webkit-border-radius: 10px;
-    background-color: white;
+    background-color: #E8E8E8;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #F3F3F3;
+    background: black;
     border: black;
 }
 /* Footer */
